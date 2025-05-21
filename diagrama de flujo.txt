@@ -1,0 +1,32 @@
+Inicio
+Se da la bienvenida al jugador.
+Se elige una palabra al azar de una lista.
+
+Se inician:
+    Las vidas (por ejemplo, 5).
+    Las letras adivinadas e incorrectas como listas vacías.
+
+    Bucle principal del juego
+Mostrar estado actual:
+    Palabra con letras adivinadas y guiones.
+    Cantidad de vidas.
+    Letras incorrectas.
+    Solicitar letra al jugador
+Validar letra:
+
+    ¿Es una sola letra?
+    ¿Ya la usó antes?
+
+Verificar si la letra está en la palabra:
+ Sí: agregar a letras_adivinadas
+
+ No: agregar a letras_incorrectas y restar una vida
+
+¿El jugador adivinó toda la palabra?
+    Mostrar mensaje de ganaste → Fin del juego
+
+¿El jugador se quedó sin vidas?
+    Mostrar mensaje de perdiste → Fin del juego
+
+Final
+    Mostrar la palabra completa.
